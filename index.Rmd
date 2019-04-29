@@ -1,0 +1,12 @@
+--- 
+title: "Research Workflow"
+author: "Nikhil Bommakanti"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+description: ""
+---
+
+# Welcome {-}
+
+Description for https://github.com/nbommakanti/research_template
