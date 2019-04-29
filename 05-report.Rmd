@@ -1,9 +1,16 @@
 # Report
 
+- Bibtex references
 
 ## Presentation
 
-
+- `presentations/`
 
 ## Paper
 
+- `paper/`
+- Includes demonstrations of:
+    - header information including authors with institutions, date, etc.
+    - subsections, equations
+    - including figures and tables from data generated in `code/` (saved in `figures/`, `data/`, respectively)
+    - referencing literature, figures, tables (also with auto-numbering, choice of style for [many journals](https://www.zotero.org/styles))

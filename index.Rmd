@@ -10,3 +10,11 @@ description: ""
 # Welcome {-}
 
 Description for https://github.com/nbommakanti/research_template
+
+**Work in progress**
+
+
+Further information:
+
+- [Bookdown](https://bookdown.org/yihui/bookdown/)
+- [R Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)

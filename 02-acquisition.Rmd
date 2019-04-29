@@ -1,1 +1,4 @@
-# Acquisition
+# Acquisition {#acquisition}
+
+- Raw data in `data-raw/` folder
+- Code to download, generate, etc. raw data in `code/preparation/` (Section \@ref(preparation))

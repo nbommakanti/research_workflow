@@ -1,8 +1,8 @@
 [
-["index.html", "Research Workflow Welcome", " Research Workflow Nikhil Bommakanti 2019-04-28 Welcome Description for https://github.com/nbommakanti/research_template "],
+["index.html", "Research Workflow Welcome", " Research Workflow Nikhil Bommakanti 2019-04-29 Welcome Description for https://github.com/nbommakanti/research_template Work in progress Further information: Bookdown R Projects "],
 ["purpose.html", "1 Purpose", " 1 Purpose Streamline research process (e.g. results of the analysis can be fed directly to the paper) Improve reproducibility (all steps are documented with code and explanatory text) Provide an organizational framework for key elements of the research process and allow for communication, justification, explanation, visualization etc. at all steps: Acquisition Preparation Analysis Presentation Publication For example, rather than solely writing: “A linear regression model of fuel efficiency as a function of vehicle weight was determined” (and performing the results by hand, possibly with no way to return to our analysis if we want to change a feature or if we are concerned about an error), we can supplement this description with the code required to execute this procedure as well as the results of running the code: # Fit a linear model mod_lm &lt;- lm(mpg ~ wt, data = mtcars) # Plot results plot(mpg ~ wt, data = mtcars) abline(mod_lm) # Print slope message(&quot;The slope is: &quot;, signif(coef(mod_lm)[[&quot;wt&quot;]], 2), &quot; mpg/1000lb&quot;) ## The slope is: -5.3 mpg/1000lb "],
-["acquisition.html", "2 Acquisition", " 2 Acquisition "],
-["preparation.html", "3 Preparation", " 3 Preparation "],
-["analysis.html", "4 Analysis", " 4 Analysis "],
-["report.html", "5 Report 5.1 Presentation 5.2 Paper", " 5 Report 5.1 Presentation 5.2 Paper "]
+["acquisition.html", "2 Acquisition", " 2 Acquisition Raw data in data-raw/ folder Code to download, generate, etc. raw data in code/preparation/ (Section 3) "],
+["preparation.html", "3 Preparation", " 3 Preparation Numbered files to denote order of preparation/analysis Acquire/prepare raw data as in Section 2 Clean data. Save in data/ folder "],
+["analysis.html", "4 Analysis", " 4 Analysis Figures in figures/ folder "],
+["report.html", "5 Report 5.1 Presentation 5.2 Paper", " 5 Report Bibtex references 5.1 Presentation presentations/ 5.2 Paper paper/ Includes demonstrations of: header information including authors with institutions, date, etc. subsections, equations including figures and tables from data generated in code/ (saved in figures/, data/, respectively) referencing literature, figures, tables (also with auto-numbering, choice of style for many journals) "]
 ]

@@ -1,1 +1,5 @@
-# Preparation
+# Preparation {#preparation}
+
+- Numbered files to denote order of preparation/analysis
+- Acquire/prepare raw data as in Section \@ref(acquisition)
+- Clean data. Save in `data/` folder
